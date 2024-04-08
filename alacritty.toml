@@ -1,0 +1,36 @@
+import = [
+  "/home/q/.config/alacritty/themes/themes/deep_space.toml"
+]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font.normal]
+family = "mononoki"
+#size = 10
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/bash"
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
